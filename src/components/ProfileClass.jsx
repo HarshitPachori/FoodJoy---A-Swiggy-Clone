@@ -1,5 +1,5 @@
 import React from "react";
-import UserContext from "../utils/contexts/userContext";
+import UserContext from "../utils/contexts/UserContext.js";
 
 class Profile extends React.Component {
   constructor(props) {
