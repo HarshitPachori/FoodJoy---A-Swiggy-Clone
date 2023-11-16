@@ -1,4 +1,4 @@
-import { CLOUDINARY_IMG_URL } from "../constants/AppConstants";
+import { CLOUDINARY_IMG_URL } from "../constants/appConstants.js";
 
 
 const OfferCard = ({ offer }) => {
