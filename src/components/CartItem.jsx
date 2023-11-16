@@ -1,5 +1,5 @@
 import React from "react";
-import { CLOUDINARY_IMG_URL } from "../constants/AppConstants";
+import { CLOUDINARY_IMG_URL } from "../constants/appConstants.js";
 
 const CartItem = ({ name, description, imageId, price }) => {
   return (

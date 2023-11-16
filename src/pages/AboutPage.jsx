@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
 // import ProfileFunction from "./ProfileFunction";
 import ProfileClass from "../components/ProfileClass";
-import UserContext from "../utils/contexts/userContext";
+import UserContext from "../utils/contexts/UserContext.js";
 
 const AboutPage = () => {
   const { user, setUser } = useContext(UserContext);

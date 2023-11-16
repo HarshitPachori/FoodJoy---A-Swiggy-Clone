@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { addItem } from "../utils/slices/cartSlice";
-import { CLOUDINARY_IMG_URL } from "../constants/AppConstants";
+import { CLOUDINARY_IMG_URL } from "../constants/appConstants.js";
 
 const MenuItem = ({ item }) => {
   const dispatch = useDispatch();
