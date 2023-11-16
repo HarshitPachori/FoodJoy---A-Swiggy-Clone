@@ -2,14 +2,14 @@ import React, { Suspense, lazy, useState } from "react";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
-import UserContext from "./utils/contexts/userContext.js";
+import UserContext from "./utils/contexts/UserContext.js";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import InstaMart from "./pages/Instamart.jsx";
 import Cart from "./pages/Cart.jsx";
 import Profile from "./components/ProfileClass.jsx";
-import store from "./utils/store/Store.js";
+import store from "./utils/store/store.js";
 const AboutPage = lazy(() => import("./pages/AboutPage.jsx"));
 const MainContent = lazy(() => import("./pages/MainContent.jsx"));
 const ContactPage = lazy(() => import("./pages/ContactPage.jsx"));
