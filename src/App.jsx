@@ -9,7 +9,7 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 import InstaMart from "./pages/Instamart.jsx";
 import Cart from "./pages/Cart.jsx";
 import Profile from "./components/ProfileClass.jsx";
-import store from "./utils/store/store.js";
+import store from "./utils/store/Store.js";
 const AboutPage = lazy(() => import("./pages/AboutPage.jsx"));
 const MainContent = lazy(() => import("./pages/MainContent.jsx"));
 const ContactPage = lazy(() => import("./pages/ContactPage.jsx"));
